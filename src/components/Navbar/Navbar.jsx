@@ -3,8 +3,10 @@ import React from 'react'
 const Navbar = () => {
     return (
         <div className='h-10 text-white'>
-            <div className='float-left flex justify-center content-center py-1.5 px-1.5 hover:bg-white hover:text-black'>
-                <a className='text-lg font-medium text-center cursor-pointer  h-full w-full'>Fensub</a>
+            <div className='h-full float-left flex justify-center item-center'>
+                <a className='block h-full text-lg font-medium text-center cursor-pointer hover:bg-white hover:text-black py-1.5 px-1.5'>
+                    Fensub
+                </a>
             </div>
         </div>
     )
